@@ -1,0 +1,11 @@
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding: 20px 20px;
+    text-align: center;
+}
